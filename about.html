@@ -2,9 +2,6 @@
 <html>
 <head>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
-<meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="./style.css">
-
 <style>
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -75,6 +72,87 @@ development life cycle</p>
   </div>
   <p><button>Contact</button></p>
 </div>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Example with Internal CSS</title>
+    <style>
+        /* Internal CSS for the footer */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .footer {
+            background-color: #282c34; /* Dark background */
+            color: white; /* White text */
+            text-align: center; /* Centered text */
+            padding: 20px 0; /* Padding for spacing */
+            position: relative; /* Relative positioning for any absolute children */
+            bottom: 0;
+            width: 100%; /* Full width footer */
+            margin-top: 20px; /* Space above the footer */
+        }
+
+        .footer a {
+            color: #61dafb; /* Light blue links */
+            text-decoration: none; /* Remove underline from links */
+            margin: 0 10px; /* Space between links */
+        }
+
+        .footer a:hover {
+            text-decoration: underline; /* Underline links on hover */
+        }
+
+        .footer p {
+            margin: 5px 0; /* Margin for paragraph text */
+        }
+
+        .footer-icons {
+            margin-top: 10px; /* Space above icons */
+        }
+
+        .footer-icons a {
+            display: inline-block; /* Inline block for icons */
+            margin: 0 10px; /* Space between icons */
+            color: white; /* White icon color */
+        }
+
+        .footer-icons a:hover {
+            color: #61dafb; /* Change color on hover */
+        }
+    </style>
+</head>
+<body>
+    <!-- Page content -->
+    <div class="content">
+        <h1>Welcome to the Website</h1>
+        <p>This is an example page with a footer.</p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+        <p>
+            <a href="about.html">About Us</a> | 
+            <a href="servicies.html">Services</a> | 
+           
+        </p>
+        <div class="footer-icons">
+            <a href="#facebook" title="Facebook">&#x1F4F7;</a>
+            <a href="#twitter" title="Twitter">&#x1F426;</a>
+            <a href="#linkedin" title="LinkedIn">&#x1F465;</a>
+        </div>
+    </footer>
+</body>
+</html>
 
 </body>
 </html>
